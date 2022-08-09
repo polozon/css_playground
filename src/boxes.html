@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="border border-red-400 px-4 py-3">
+    <p>Några tester där två boxar ligger i en flex container.
+    <a class="underline" href="./index.html">Home</a>
+    </p>
+  </div>
+  <div class="flex bg-slate-200 px-10 py-5">
+    <div class="bg-red-500 w-10 h-10">
+    </div>
+    <div class="bg-blue-500 w-10 h-10">
+    </div>
+    <p class="px-2">Inga positioner satta</p>
+  </div>
+  <div class="flex bg-slate-300 px-10 py-5">
+    <div class="bg-red-500 relative left-5 bottom-2 w-10 h-10">
+    </div>
+    <div class="bg-blue-500 w-10 h-10">
+    </div>
+    <p class="px-2">Här har den röda rutan position:relative</p>
+  </div>
+  <div class="flex relative bg-slate-200 px-10 py-5">
+    <div class="bg-red-500 absolute left-5 top-1 w-10 h-10">
+    </div>
+    <div class="bg-blue-500 w-10 h-10">
+    </div>
+    <p class="px-2">Här har den röda rutan position:absolute, parent måste ha relative</p>
+  </div>
+</body>
+</html>
