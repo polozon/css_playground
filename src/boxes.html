@@ -12,6 +12,7 @@
     </p>
   </div>
   <div class="flex bg-slate-200 px-10 py-5">
+    <p class="w-6">1.</p>
     <div class="bg-red-500 w-10 h-10">
     </div>
     <div class="bg-blue-500 w-10 h-10">
@@ -19,18 +20,20 @@
     <p class="px-2">Inga positioner satta</p>
   </div>
   <div class="flex bg-slate-300 px-10 py-5">
-    <div class="bg-red-500 relative left-5 bottom-2 w-10 h-10">
+    <p class="w-6">2.</p>
+    <div class="bg-red-500 relative left-5 bottom-6 w-10 h-10">
     </div>
     <div class="bg-blue-500 w-10 h-10">
     </div>
-    <p class="px-2">Här har den röda rutan position:relative</p>
+    <p class="px-2">Röd har position:relative med blå flyttas inte eftersom röd fortfarande har sin plats i document flow</p>
   </div>
   <div class="flex relative bg-slate-200 px-10 py-5">
-    <div class="bg-red-500 absolute left-5 top-1 w-10 h-10">
+    <p class="w-6 z-10 font-bold">3.</p>
+    <div class="bg-red-500 absolute left-3 bottom-3 w-10 h-10">
     </div>
     <div class="bg-blue-500 w-10 h-10">
     </div>
-    <p class="px-2">Här har den röda rutan position:absolute, parent måste ha relative</p>
+    <p class="px-2">Röd har position:absolute i förhållande till parent, parent måste ha relative. Blå tar platsen här röd fanns innan, röd är utanför normal flow.</p>
   </div>
 </body>
 </html>

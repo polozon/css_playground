@@ -1,12 +1,12 @@
 Labbar med CSS/TailwindCSS
 ==========================
 
-Kör detta i Cmder för att autokompilera Tailwind:
+Kör detta i en terminal (vscode) för att autokompilera Tailwind:
 ```
-λ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
-Testa projektet genom att öppna mappen i vscode och använda live server.
+Testa projektet med vscode och live server.
 
 admin_dashboard.html
 --------------------
