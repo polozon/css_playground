@@ -2,7 +2,9 @@ Labbar med CSS/TailwindCSS
 ==========================
 
 Kör detta i Cmder för att autokompilera Tailwind:
+```
 λ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
 
 Testa projektet genom att öppna mappen i vscode och använda live server.
 
