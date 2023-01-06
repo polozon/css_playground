@@ -17,4 +17,6 @@ Jag kollar på koden och skriver om den i Obsidian
 Denna text läggs till en ny branch test_br
 Den andra raden
 
+En tredje rad
+
 
