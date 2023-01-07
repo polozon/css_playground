@@ -18,5 +18,6 @@ Denna text läggs till en ny branch test_br
 Den andra raden
 
 En tredje rad
+En rad i test_br2
 
 
